@@ -1,0 +1,37 @@
+/*
+
+# Restore pre-1.0 callout appearance
+
+Obsidian 1.0 changed callouts in three ways:
+
+1. Left-hand border removed
+2. Grey callout body took the same colour as its header
+3. Header text no longer black
+
+This snippet restores the whole old appearance.
+
+*/
+
+
+
+/* This code was actually supplied by @Fevol https://discord.com/channels/686053708261228577/716028884885307432/1020035617951850506 */
+
+
+body {
+    --callout-padding: 0;
+    --callout-title-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
+    --callout-content-padding: var(--size-4-2) var(--size-4-2) var(--size-4-2) var(--size-4-3);
+    --callout-radius: 0;
+}
+
+.callout {
+    border-left: 4px solid rgba(var(--callout-color), 0.7);
+}
+
+.callout-title {
+    color: var(--text-normal);
+}
+
+.callout-content {
+    background-color: var(--background-secondary);
+}

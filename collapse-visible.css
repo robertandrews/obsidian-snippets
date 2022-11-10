@@ -1,0 +1,23 @@
+/*
+
+Make collapse arrows always visible.
+
+In Obsidian, elements like headers and bullet list items can fold to collapse.
+Default behaviour is to only show the collapse arrow on hover.
+This has two negative consequences:
+1. Difficult to use on mobile.
+2. Reduced inclination to collapse.
+
+This CSS makes the arrows permanently visible.
+
+- Live Preview & Source modes:     .collapse-indicator
+- Reading Mode:                    .collapse-icon
+
+https://forum.obsidian.md/t/folding-arrows-on-ios-dont-show-until-touched/44399
+
+*/
+
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator,
+.collapse-icon {
+    opacity: 50;
+}
