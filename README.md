@@ -35,3 +35,15 @@ This has two negative consequences:
 This CSS makes the arrows permanently visible.
 
 ![collapse-visible](pics/pic-collapse-visible.png)
+
+## 4. header-colours.css
+
+A few pastel colours for header text in dark mode.
+
+![header-colours](pics/pic-header-colours.jpeg)
+
+## 5. header-weight-heavier.css
+
+Increase each header text weight to 800, making for stronger, bolder headers.
+
+![header-colours](pics/pic-header-weight-heavier.jpeg)
